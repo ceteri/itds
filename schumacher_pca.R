@@ -1,6 +1,6 @@
 ## principle component analysis
+## from Aaron Schumacher
 ## http://planspace.org/2013/02/03/pca-3d-visualization-and-clustering-in-r/
-## Aaron Schumacher
 
 data(iris)
 
@@ -19,6 +19,7 @@ loadings(pc)
 summary(pc)
 
 plot(pc, type="lines")
+
 biplot(pc)
 
 set.seed(42)
